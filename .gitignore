@@ -172,3 +172,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Datasets and model artifacts
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.joblib
+models/
+data/
+
+# Experiment logs or outputs
+logs/
+outputs/
+reports/
+
